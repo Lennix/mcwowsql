@@ -1,0 +1,1 @@
+/* fixed bug that i created for wsg spirit guides */update creature_template set npcflag=npcflag+(npcflag | 0x00000040) WHERE entry IN ( 13116, 13117 ) ;

@@ -1,0 +1,2 @@
+UPDATE `creature_template` SET npcflag = 19 WHERE `subname` LIKE "%Trainer%" AND npcflag = 18 AND entry IN (SELECT id FROM `creature_questrelation`);
+UPDATE `creature_template` SET npcflag = 17 WHERE `subname` LIKE "%Trainer%" AND npcflag = 18;
