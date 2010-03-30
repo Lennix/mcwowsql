@@ -1,1 +1,0 @@
-UPDATE  `world`.`creature_template` SET  `spell1` =  '0' WHERE  `creature_template`.`entry` =3968 LIMIT 1 ;
