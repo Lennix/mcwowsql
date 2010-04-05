@@ -9,30 +9,30 @@
 --
 
 -- Onyxia richtig ausrichten!
-UPDATE `test_world`.`creature` SET `position_x` =  '-9.1662',
+UPDATE `creature` SET `position_x` =  '-9.1662',
 `position_y` = '-209.586',
 `position_z` = '-87.5113',
 `orientation` = '3.3004' WHERE `creature`.`guid` =47572 LIMIT 1 ;
 
 -- Wachen richtig konfigurieren!
-UPDATE `test_world`.`creature_template` SET 
+UPDATE `creature_template` SET 
 `MovementType` = '2',
 `speed_walk` = '1.42',
 `InhabitType` = '3' WHERE `creature_template`.`entry` =12129 LIMIT 1 ;
 
 -- Wachen GUID richtig konfigurieren!
-UPDATE `test_world`.`creature` SET `currentwaypoint` = '0',
+UPDATE `creature` SET `currentwaypoint` = '0',
 `MovementType` = '2' WHERE `creature`.`guid` =52049 LIMIT 1 ;
-UPDATE `test_world`.`creature` SET `MovementType` =  '2' WHERE `creature`.`guid` =52048 LIMIT 1 ;
-UPDATE `test_world`.`creature` SET `MovementType` =  '0' WHERE `creature`.`guid` =52053 LIMIT 1 ;
-UPDATE `test_world`.`creature` SET `position_x` =  '-197.26',
+UPDATE `creature` SET `MovementType` =  '2' WHERE `creature`.`guid` =52048 LIMIT 1 ;
+UPDATE `creature` SET `MovementType` =  '0' WHERE `creature`.`guid` =52053 LIMIT 1 ;
+UPDATE `creature` SET `position_x` =  '-197.26',
 `position_y` = '-201.79',
 `position_z` = '-69.277',
 `orientation` = '0.49916' WHERE `creature`.`guid` =52053 LIMIT 1 ;
-UPDATE `test_world`.`creature` SET `MovementType` =  '2' WHERE `creature`.`guid` =52047 LIMIT 1 ;
+UPDATE `creature` SET `MovementType` =  '2' WHERE `creature`.`guid` =52047 LIMIT 1 ;
 
 -- Wegepunkte von [52049]
-INSERT INTO `test_world`.`creature_movement` VALUES (
+INSERT INTO `creature_movement` VALUES (
 '52049', '1', '-32.0391', '-98.3822', '-35.8912', '100', '0', '0', '0', '0', '0', '0', '0', '0', '0.031786', '0', '0'
 ), (
 '52049', '2', '-50.8427', '-98.6335', '-38.6714', '0', '0', '0', '0', '0', '0', '0', '0', '0', '3.12233', '0', '0'
@@ -47,7 +47,7 @@ INSERT INTO `test_world`.`creature_movement` VALUES (
 );
 
 -- Wegepunkte von [52048]
-INSERT INTO `test_world`.`creature_movement` VALUES (
+INSERT INTO `creature_movement` VALUES (
 '52048', '1', '-85,79', '-214', '-82', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'
 ), (
 '52048', '2', '-97', '-214', '-82', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'
@@ -78,7 +78,7 @@ INSERT INTO `test_world`.`creature_movement` VALUES (
 );
 
 -- Wegepunkte von [52047]
-INSERT INTO `test_world`.`creature_movement` VALUES (
+INSERT INTO `creature_movement` VALUES (
 '52047', '1', '-100', '-111', '-40', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'
 ), (
 '52047', '2', '-112', '-121', '-48', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'
@@ -103,13 +103,13 @@ DELETE FROM creature WHERE guid = 52050;
 --
 
 -- Alchemist Stößelbruch handelt wieder!
-UPDATE `test_world`.`creature_template` SET `npcflag` = '16391' WHERE `creature_template`.`entry` =5594 LIMIT 1 ;
+UPDATE `creature_template` SET `npcflag` = '16391' WHERE `creature_template`.`entry` =5594 LIMIT 1 ;
 
 -- Marin Noggenfogger handelt wieder!
-UPDATE `test_world`.`creature_template` SET `npcflag` = '16391' WHERE `creature_template`.`entry` =7564 LIMIT 1 ;
+UPDATE `creature_template` SET `npcflag` = '16391' WHERE `creature_template`.`entry` =7564 LIMIT 1 ;
 
 -- Kaya repariert nun auch!
-UPDATE `test_world`.`creature_template` SET `npcflag` = '16388' WHERE `creature_template`.`entry` =3322 LIMIT 1 ;
+UPDATE `creature_template` SET `npcflag` = '16388' WHERE `creature_template`.`entry` =3322 LIMIT 1 ;
 
 
 
@@ -117,24 +117,24 @@ UPDATE `test_world`.`creature_template` SET `npcflag` = '16388' WHERE `creature_
 -- T0,5 additional Hotfix
 --
 
-INSERT INTO `test_world`.`creature_questrelation` 
+INSERT INTO `creature_questrelation` 
 VALUES ('16012', '8960');
 
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9022 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9021 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9020 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9019 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9018 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9017 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =9016 LIMIT 1 ;
-UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
+UPDATE `quest_template` SET `NextQuestId` = '8960',
 `NextQuestInChain` = '8960' WHERE `quest_template`.`entry` =8957 LIMIT 1 ;
 
 
@@ -142,7 +142,7 @@ UPDATE `test_world`.`quest_template` SET `NextQuestId` = '8960',
 -- Dunkeleisen verhütten
 --
 
-UPDATE `test_world`.`quest_template` SET `RewSpell` = '0',
+UPDATE `quest_template` SET `RewSpell` = '0',
 `RewSpellCast` = '14891' WHERE `quest_template`.`entry` =4083 LIMIT 1 ;
 
 
@@ -150,9 +150,9 @@ UPDATE `test_world`.`quest_template` SET `RewSpell` = '0',
 -- General Drakkisath added nun seine Adds beim Pull!
 --
 
-UPDATE `test_world`.`creature_template` SET `faction_A` = '73',
+UPDATE `creature_template` SET `faction_A` = '73',
 `faction_H` = '73' WHERE `creature_template`.`entry` =10814 LIMIT 1 ;
-UPDATE `test_world`.`creature` SET `position_x` =  '30.028',
+UPDATE `creature` SET `position_x` =  '30.028',
 `position_y` = '-291.72',
 `position_z` = '110.94',
 `orientation` = '3.095' WHERE `creature`.`guid` =90975 LIMIT 1;

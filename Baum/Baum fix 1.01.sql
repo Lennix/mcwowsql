@@ -9,11 +9,11 @@
 -- DM-Nord-West-Schalter-Tür-öffnen
 --
 
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('49962', '0', '11', '49948', '5', '0', '0', '0', '0', '0');
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('49960', '0', '11', '49945', '5', '0', '0', '0', '0', '0');
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('49958', '0', '11', '49943', '5', '0', '0', '0', '0', '0');
 
 
@@ -21,7 +21,7 @@ VALUES ('49958', '0', '11', '49943', '5', '0', '0', '0', '0', '0');
 -- Scholomance-Schalter-Tür-öffnen
 --
 
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('45428', '0', '11', '45427', '5', '0', '0', '0', '0', '0');
 
 
@@ -29,7 +29,7 @@ VALUES ('45428', '0', '11', '45427', '5', '0', '0', '0', '0', '0');
 -- Stratholme-Schalter-Tür-öffnen
 --
 
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('45625', '0', '11', '45626', '5', '0', '0', '0', '0', '0');
 
 
@@ -48,10 +48,10 @@ INSERT INTO `gameobject` VALUES (300000, 170576, 230, 701.743, -126.33, -45.7532
 
 INSERT INTO `gameobject` VALUES (301063, 161460, 230, 678.672, -137.134, -46.2337, 1.13687, 0, 0, 0.538314, 0.842744, 0, 0, 1);
 
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('301063', '0', '12', '15576', '15000', '0', '0', '0', '0', '0');
 
-INSERT INTO `test_world`.`gameobject_scripts` 
+INSERT INTO `gameobject_scripts` 
 VALUES ('301063', '0', '11', '300000', '15000', '0', '0', '0', '0', '0');
 
 
@@ -81,7 +81,7 @@ DELETE FROM gameobject WHERE guid = 35820;
 -- MC-Pre-Core-Fragment
 --
 
-UPDATE `test_world`.`gameobject` SET `spawntimesecs` = '10' WHERE `gameobject`.`guid` =43133 LIMIT 1 ;
+UPDATE `gameobject` SET `spawntimesecs` = '10' WHERE `gameobject`.`guid` =43133 LIMIT 1 ;
 
 
 
