@@ -85,6 +85,8 @@ UPDATE `creature_template` SET `mindmg` = '300',
 `rangeattacktime` = '1500',
 `minrangedmg` = '100',
 `maxrangedmg` = '140',
+`minhealth` = '4260',
+`maxhealth` = '4560',
 `rangedattackpower` = '120' WHERE `creature_template`.`entry` =15101 LIMIT 1 ;
 
 -- [11352]Gurubashi Berserker[workaround]
@@ -94,7 +96,7 @@ UPDATE `creature_template` SET `mindmg` = '1000',
 `baseattacktime` = '1500',
 `minrangedmg` = '800',
 `maxrangedmg` = '1400',
- `mechanic_immune_mask`  = '1073741823',
+`mechanic_immune_mask`  = '1073741823',
 `rangedattackpower` = '200' WHERE `creature_template`.`entry` =11352 LIMIT 1 ;
 
 -- [15233]Shade of Jin'do[nerf]
