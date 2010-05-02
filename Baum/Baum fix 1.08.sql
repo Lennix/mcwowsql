@@ -98,8 +98,8 @@ UPDATE `creature_template` SET `mindmg` = '1000',
 `rangedattackpower` = '200' WHERE `creature_template`.`entry` =11352 LIMIT 1 ;
 
 -- [15233]Shade of Jin'do[nerf]
-UPDATE `creature_template` SET `mindmg` = '200',
-`maxdmg` = '500' WHERE `creature_template`.`entry` =14986 LIMIT 1 ;
+UPDATE `creature_template` SET `mindmg` = '400',
+`maxdmg` = '600' WHERE `creature_template`.`entry` =14986 LIMIT 1 ;
 
 
 
