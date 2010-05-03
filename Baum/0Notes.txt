@@ -1,0 +1,89 @@
+1.00
+
+-- Quest-Scholomance-Key-Horde and Alliance!
+-- Quest-Thoriumbrotherhood-Reputation!
+-- Quest-Battle of Hillsbrad!
+-- Quest-Hypercapacitor Gizmo!
+-- Quest-Call of Water!
+-- ONY-PRE-Horde and Alliance!
+
+1.01
+
+-- DM-North-West-Doorfix!
+-- Scholomance-Doorfix!
+-- Stratholme-Doorfix!
+-- BRD-DOORFIX-ALLROUND!
+-- MC-Pre-Core-Fragment-spawntime!
+
+1.02
+
+-- Quest-T0,5!
+
+1.03
+
+-- Onyxia's Lair-Pats!
+-- Trade-BUG-NPC's -> Alchemist Pestlezugg etc.!
+-- smelting of Dark Iron! 
+-- General Drakkisath added now!
+-- you have to evoke Lord Valthalak! 
+
+1.04
+
+-- Magistrate Barthilas spawns correct!
+-- Arenaudience in BRD are neutral!
+-- Timmy the Cruel spawns correct!
+
+1.05
+
+-- Draki Adds are immun against -> fear/sleep/bleed/sheep!
+-- you are now able to kill Lunaclaw!
+-- Quest-The Tome of Divinity!
+-- Quest-Trial of the Sea Lion[Horde]!
+-- Quest-Hand of Iruxos!
+
+1.06
+
+-- All Mobs which are normally fireimmun have now a fireresi of 
+   1000!
+
+1.07
+
+-- Quest-Waking Legends!
+-- Quest-Deep Cover!
+-- Quest-The Great Fras Siabi!
+-- Quest-Souvenirs of Death!
+-- Quest-Ein Treffen mit dem Meister!
+
+1.08
+
+-- Zul'Gurub WORKAROUND!
+ - Venoxis [+20% DMG]
+ - Jeklik [+20% DMG]
+ - Mar'li [+20% DMG]
+ - Mandokir [+20% DMG]
+ - Thekal [+20% DMG]
+ - Gahz'ranka [+20% DMG]
+ - Arlokk [hardpush]
+ - Gurubashi Berserker [hardpush]
+ - Shade of Jin'do[nerf]
+
+1.09
+
+-- YOU CAN FISHING ALL OVER THE WORLD!
+-- Trade-BUG-NPC's -> Master Smith Burninate!
+-- some Mobs are tameable again!
+-- Quest-The Scent of Lar'korwi!
+-- Quest-Portals of the Legion!
+
+1.10
+
+-- JINDO additional Fix!
+
+1.11
+
+-- Quest-Lard Lost His Lunch!
+-- Quest-Securing the Supply Lines!
+
+
+
+
