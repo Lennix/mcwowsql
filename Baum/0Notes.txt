@@ -83,6 +83,9 @@
 
 -- Quest-Lard Lost His Lunch!
 -- Quest-Securing the Supply Lines!
+-- Quest-Gordunni Cobalt!
+-- you are now able to fish Winter Squid!
+-- Zul'Gurub-Quest for rewards - Only Available for your class!
 
 
 
