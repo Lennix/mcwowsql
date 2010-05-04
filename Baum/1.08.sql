@@ -1,16 +1,16 @@
--------------------------------------------------------
+-- ----------------------------------------------------
 -- 	MC-Entertainment                               --
 --	Databasefix by Baum UPDATE 1.08 [26.04.2010]   --
 --	for mc-wow [Lennix]                            --
--------------------------------------------------------
+-- ----------------------------------------------------
 
---
--- Zul'Gurub DAMAGE PUSH[%]!
---
+-- -----------------------------
+-- Zul'Gurub DAMAGE PUSH[%]! --
+-- -----------------------------
 
----------
---Bosse--
----------
+-- ---------
+-- Bosse --
+-- ---------
 
 -- [14507]Venoxis[+20%]
 UPDATE `creature_template` SET `mindmg` = '720,0',
@@ -73,9 +73,9 @@ UPDATE `creature_template` SET `mindmg` = '1100',
 `attackpower` = '8000',
 `baseattacktime` = '1800' WHERE `creature_template`.`entry` =14515 LIMIT 1 ;
 
----------
---Trash--
----------
+-- ---------
+-- Trash --
+-- ---------
 
 -- [15101]Arlokk's Panther ADDS[workaround]
 UPDATE `creature_template` SET `mindmg` = '300',
@@ -100,12 +100,3 @@ UPDATE `creature_template` SET `mindmg` = '1000',
 -- [15233]Shade of Jin'do[nerf]
 UPDATE `creature_template` SET `mindmg` = '200',
 `maxdmg` = '500' WHERE `creature_template`.`entry` =14986 LIMIT 1 ;
-
-
-
-
-
-
-
-
-
