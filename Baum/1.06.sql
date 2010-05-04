@@ -1,23 +1,24 @@
--------------------------------------------------------
+-- ----------------------------------------------------
 -- 	MC-Entertainment                               --
 --	Databasefix by Baum UPDATE 1.06 [22.04.2010]   --
 --	for mc-wow [Lennix]                            --
--------------------------------------------------------
+-- ----------------------------------------------------
 
---
--- Feuerresi alle Feuerimmuner Mobs wird auf 1000 angehoben!
---
+-- ------------------------------------------------------------
+-- Feuerresi alle Feuerimmuner Mobs wird auf 1000 angehoben! --
+-- ------------------------------------------------------------
 
-
--- Onyxia's-Hort
-
+-- -----------------
+-- Onyxia's-Hort --
+-- -----------------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =12129 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10184 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =11262 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =12739 LIMIT 1 ;
 
--- Molten Core
-
+-- ---------------        
+-- Molten Core --
+-- ---------------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =11658 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =11668 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =11673 LIMIT 1 ;
@@ -39,8 +40,9 @@ UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =12018 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =11502 LIMIT 1 ;
 
--- BRD
-
+-- -------
+-- BRD --
+-- -------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =8910 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =8909 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =9016 LIMIT 1 ;
@@ -50,8 +52,9 @@ UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =8908 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =9938 LIMIT 1 ;
 
--- UBRS
-
+-- --------
+-- UBRS --
+-- --------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10366 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =9816 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10372 LIMIT 1 ;
@@ -62,13 +65,15 @@ UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10814 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10363 LIMIT 1 ;
 
--- LBRS
-
+-- --------
+-- LBRS --
+-- --------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10083 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =9568 LIMIT 1 ;
 
--- BWL
-
+-- -------
+-- BWL --
+-- -------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =12435 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =13020 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =12465 LIMIT 1 ;
@@ -85,8 +90,9 @@ UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =14020 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =10162 LIMIT 1 ;
 
--- SONSTIGE
-
+-- ------------
+-- SONSTIGE --
+-- ------------
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =7040 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =7048 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =15206 LIMIT 1 ;
@@ -101,14 +107,3 @@ UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =5850 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =8281 LIMIT 1 ;
 UPDATE `creature_template` SET `resistance2` = '1000' WHERE `creature_template`.`entry` =9318 LIMIT 1 ;
-
-
-
-
-
-
-
-
-
-
-
