@@ -35,7 +35,7 @@
 
 1.05
 
--- Draki Adds are immun against -> fear/sleep/bleed/sheep!
+-- Draki Adds are immun against -> fear/sleep/sheep!
 -- you are now able to kill Lunaclaw!
 -- Quest-The Tome of Divinity!
 -- Quest-Trial of the Sea Lion[Horde]!
@@ -85,8 +85,16 @@
 -- Quest-Securing the Supply Lines!
 -- Quest-Gordunni Cobalt!
 -- you are now able to fish Winter Squid!
--- Zul'Gurub-Quest for rewards - Only Available for your class!
+-- Zul'Gurub-Quest for rewards-Only Available for your class!
 
+1.12
+
+-- Master Axesmith,Swordsmith and Hammersmith now available!
+-- Quest-Cuergo's Gold!
+-- Quest-Defenders of Darrowshire!
+-- Quest-Items of Power!
+-- You are now able to loot "Winterfall Spirit Beads" and  "Deadwood Headdress Feather"!
+-- You are able to use Bleedeffects against all Mobs!
 
 
 
