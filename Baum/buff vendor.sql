@@ -1,3 +1,9 @@
+-- ------------------------------------------------------
+-- 	MC-Entertainment                                 --
+--	Buffvendor by Baum [05.05.2010]                  --
+--	for mc-wow [Lennix]                              --
+-- ------------------------------------------------------
+
 -- NUR FÜR TESTDATENBANK!!!
 
 DELETE from `creature_template` where entry = 666666;
