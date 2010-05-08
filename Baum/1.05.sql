@@ -5,9 +5,9 @@
 -- ----------------------------------------------------
 
 -- -------------------------------------------------------------
--- Draki Adds sind nun immun gegen -> fear/sleep/bleed/sheep! --
+-- Draki Adds sind nun immun gegen -> fear/sleep/sheep!       --
 -- -------------------------------------------------------------
-UPDATE `creature_template` SET `mechanic_immune_mask`  = '82448' WHERE `creature_template`.`entry` =10814 LIMIT 1 ;
+UPDATE `creature_template` SET `mechanic_immune_mask`  = '66064' WHERE `creature_template`.`entry` =10814 LIMIT 1 ;
 
 -- --------------------------------
 -- Mondklaue ist nun besiegbar! --
