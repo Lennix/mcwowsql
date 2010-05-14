@@ -96,5 +96,16 @@
 -- You are now able to loot "Winterfall Spirit Beads" and  "Deadwood Headdress Feather"!
 -- You are able to use Bleedeffects against all Mobs!
 
+1.13
+
+-- Speed_walk of Pats is now normal!
+-- Chest of the seven now available!
+-- REPBOT!
+-- Quest-A Plague Upon Thee!
+-- Quest-Redemption!
+-- Quest-Digging Through The Ooze!
+-- Quest-Armaments of Battle! 
+-- The Unforgiven spawns now in Stratholme!
+
 
 
