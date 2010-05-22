@@ -107,5 +107,14 @@
 -- Quest-Armaments of Battle! 
 -- The Unforgiven spawns now in Stratholme!
 
+1.14
+
+-- Quest-The Curse of the Tides!
+-- Quest-Glyph Chasing!
+
+1.15
+
+-- Silithus - Wind Stones!
+
 
 

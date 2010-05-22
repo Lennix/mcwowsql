@@ -40,15 +40,5 @@ UPDATE `creature_questrelation` SET `id` = '0' WHERE `creature_questrelation`.`i
 UPDATE `creature_questrelation` SET `id` = '0' WHERE `creature_questrelation`.`id` =16033 AND `creature_questrelation`.`quest` =8987 LIMIT 1 ;
 UPDATE `creature_questrelation` SET `id` = '0' WHERE `creature_questrelation`.`id` =16033 AND `creature_questrelation`.`quest` =8988 LIMIT 1 ;
 
--- Fürst der Asche spawmen
-delete from `creature` where guid = 352941;
-INSERT INTO `creature` VALUES(352941, 15206, 1, 0, 0, -6992.23, 1179.82, 9.80489, 3.0293, 900, 5, 0, 52000, 12840, 0, 0);
-UPDATE `creature_template` SET `scale` = '3' WHERE `creature_template`.`entry` =15206 LIMIT 1 ;
-UPDATE `creature_loot_template` SET `ChanceOrQuestChance` = '0' WHERE `creature_loot_template`.`entry` =15206 AND `creature_loot_template`.`item` =20514 LIMIT 1 ;
-UPDATE `creature_loot_template` SET `ChanceOrQuestChance` = '0' WHERE `creature_loot_template`.`entry` =15206 AND `creature_loot_template`.`item` =20665 LIMIT 1 ;
-UPDATE `creature_loot_template` SET `ChanceOrQuestChance` = '0' WHERE `creature_loot_template`.`entry` =15206 AND `creature_loot_template`.`item` =20666 LIMIT 1 ;
-UPDATE `creature_template` SET `mindmg` = '300',
-`maxdmg` = '500' WHERE `creature_template`.`entry` =15206 LIMIT 1 ;
-
 
 
