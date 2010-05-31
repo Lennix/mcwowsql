@@ -69,7 +69,7 @@
 
 1.09
 
--- YOU CAN FISHING ALL OVER THE WORLD!
+-- YOU CAN FISH ALL OVER THE WORLD!
 -- Trade-BUG-NPC's -> Master Smith Burninate!
 -- some Mobs are tameable again!
 -- Quest-The Scent of Lar'korwi!
@@ -115,6 +115,15 @@
 1.15
 
 -- Silithus - Wind Stones!
+
+1.16
+
+-- Quest - Tactical Task Briefing VI!
+-- Quest - Tactical Task Briefing VII!
+-- Quest - Tactical Task Briefing VIII!
+-- Quest - Field Duty!
+-- Quest - Hive in the Tower!
+-- It is no longer possible to fear Darkmaster Gandling!
 
 
 
