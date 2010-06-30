@@ -1,6 +1,6 @@
 -- -----------------------------------------------------
 -- 	MC-Entertainment                               --
---	Databasefix by Baum UPDATE 2.00 []   --
+--	Databasefix by Baum UPDATE 2.00 [30.06.2010]   --
 --	for mc-wow [Lennix]                            --
 -- -----------------------------------------------------
 
