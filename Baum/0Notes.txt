@@ -125,5 +125,17 @@
 -- Quest - Hive in the Tower!
 -- It is no longer possible to fear Darkmaster Gandling!
 
+1.17
+
+-- Diremaul East!
+
+1.18
+
+-- UBRS Runes!
+
+2.00
+
+-- Molten-Core Database Update
+
 
 
