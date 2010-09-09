@@ -1,5 +1,5 @@
 -- -----------------------------
--- DONE BY SERAFIM AND AZEEM --
+-- DONE BY SERAFIM AND AZEEM --	überabeitet von Baum
 -- -----------------------------
 
 UPDATE `creature_template` SET `mechanic_immune_mask` = '1073725439' WHERE `creature_template`.`entry` =11658 LIMIT 1 ;
@@ -54,7 +54,7 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = '1073725439' WHERE `crea
 
 UPDATE `creature_template` SET `mechanic_immune_mask` = '1073725439' WHERE `creature_template`.`entry` =11988 LIMIT 1 ;
 
-UPDATE `creature_template` SET `mechanic_immune_mask` = '1073725439' WHERE `creature_template`.`entry` =11663 LIMIT 1 ;
+UPDATE `creature_template` SET `mechanic_immune_mask` = '1073659903' WHERE `creature_template`.`entry` =11663 LIMIT 1 ;
 
 UPDATE `creature_template` SET `mechanic_immune_mask` = '1073725439' WHERE `creature_template`.`entry` =11664 LIMIT 1 ;
 
